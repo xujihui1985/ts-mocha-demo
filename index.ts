@@ -2,7 +2,6 @@ import * as _ from 'lodash';
 
 export const asyncFunc = async (hello: string) => {
   await timeout();
-  console.log(hello);
   return "bbbb";
 };
 

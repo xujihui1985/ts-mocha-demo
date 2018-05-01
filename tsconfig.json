@@ -5,7 +5,13 @@
         "target": "esnext",
         "noImplicitAny": false,
         "sourceMap": false,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "forceConsistentCasingInFileNames": true,
+        "traceResolution": false,
+        "strictFunctionTypes": true,
+        "stripInternal": true
     },
     "exclude": [
         "node_modules",
