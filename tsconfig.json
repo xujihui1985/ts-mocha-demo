@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
+        "outDir": "dist",
         "module": "commonjs",
-        "target": "es6",
+        "target": "esnext",
         "noImplicitAny": false,
-        "sourceMap": false
+        "sourceMap": false,
+        "strictNullChecks": true
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "dist"
     ]
 }
