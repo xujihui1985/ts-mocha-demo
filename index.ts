@@ -1,5 +1,4 @@
 import * as _ from 'lodash';
-import { assertNever } from './assert_never';
 
 export const asyncFunc = async (hello: string) => {
   await timeout();
@@ -28,5 +27,3 @@ const num = [1, 2, 3, [4]];
 
 
 type HttpStatus = 200 | 404;
-
-// discriminated union type
